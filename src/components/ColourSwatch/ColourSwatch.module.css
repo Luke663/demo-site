@@ -1,0 +1,15 @@
+.colour-swatch {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    margin: 5px;
+  }
+
+  .colour-swatch:hover {
+    border: 3px solid #eef082;
+  }

@@ -1,0 +1,40 @@
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  --background-colour: #white;
+  --text-colour: #333;
+
+  background: var(--background-colour);
+  color: var(--text-colour);
+
+  max-width: 95%;
+  padding: 1rem;
+  margin: 10 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.title-box {
+  justify-content: left;
+  width: 60%;
+  font-size: 1.5rem;
+}
+
+.theme-select {
+  display: flex;
+  justify-content: right;
+  height: 40px;
+  align-items: center;
+}
+
+.grid-wrapper {
+  display: flexbox;
+  gap: 1rem;
+  justify-content: center;
+}

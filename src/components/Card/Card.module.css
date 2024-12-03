@@ -1,0 +1,70 @@
+.card {
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container img {
+    height: 150px;
+    width: 100%;
+    object-fit: stretch;
+}
+
+.card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card h3,
+.card p {
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-button-container button {
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card-button-container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-button-container .btn-page:hover {
+    background: rgba(27, 156, 253, 0.1);
+}
+
+.card-button-container .btn-code:hover {
+    background: rgba(11, 167, 81, 0.1);
+}
+
+.disbled-button {
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: bold;
+}
