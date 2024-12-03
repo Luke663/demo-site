@@ -29,7 +29,7 @@ export const ReactProjects = [
   },
   {
     title: "Demo site",
-    body: "This demonstration site, use the link below to see the code behind it.",
+    body: "This demonstration site. Use the link below to see the code behind it.",
     imageLink: demo,
     pageURL: "",
     codeURL: "https://github.com/Luke663/demo-site",
@@ -38,7 +38,7 @@ export const ReactProjects = [
 
 export const JavaScriptProjects = [
   {
-    title: "Heap sort visualiser",
+    title: "Heapsort visualiser",
     body: "Project visualising and demonstrating how heaps and heapsort work.",
     imageLink: heaps,
     pageURL: "https://luke663.github.io/Heaps-Heapsort/",

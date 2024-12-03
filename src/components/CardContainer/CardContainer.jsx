@@ -12,7 +12,7 @@ export default function CardContainer({ projects, sectionTitle }) {
   return (
     <div className={styles["card-container"]}>
       {/* Section title */}
-      <h1 className={styles["section-title"]}>{sectionTitle}</h1>
+      <h2 className={styles["section-title"]}>{sectionTitle}</h2>
 
       {/* Projects cards */}
       {projects.map((project, index) => (
